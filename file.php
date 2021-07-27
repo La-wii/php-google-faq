@@ -40,6 +40,8 @@ $stampa_faq = count($faq);
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- collegamento CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- collegamento font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Google FAQ</title>
 </head>
 <body>
@@ -48,7 +50,7 @@ $stampa_faq = count($faq);
         <nav>
             <div class="container-fluid">
                 <div class="row d-flex">
-                    <div class="col-4 d-inline-flex">
+                    <div class="col-12 d-inline-flex">
                         <img src="img/logo-google.png" alt="logo google" class="logo">
 
                         <h3>Privacy e Termini</h3>
@@ -76,6 +78,7 @@ $stampa_faq = count($faq);
                             </li>
                         </ul>
                     </div>
+
                 </div>
 
             </div>
@@ -114,6 +117,7 @@ $stampa_faq = count($faq);
                 </div>
 
                 <div class="col-2">
+                    <span><i class="fas fa-globe"></i></span>
                     <select name="selection" id="selection">
                         <option value="italiano">Italiano</option>
                         <option value="inglese">Inglese</option>
