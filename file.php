@@ -52,12 +52,17 @@ $stampa_faq = count($faq);
             <div class="container-fluid">
                 <!-- start row -->
                 <div class="row d-flex">
-                    <div class="col-12 d-inline-flex">
+                    <div class="col-11 d-inline-flex">
 
                         <img src="img/logo-google.png" alt="logo google" class="logo">
 
                         <h3>Privacy e Termini</h3>
-                    </div>                    
+                    </div>
+                    
+                    <div class="col-1 mt-4 icons">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-user-circle"></i>
+                    </div>
                 </div>
                 <!-- end row -->
 
@@ -81,6 +86,8 @@ $stampa_faq = count($faq);
                                 <a href="#">Domande frequenti</a>
                             </li>
                         </ul>
+
+
                     </div>
                 </div>
                 <!-- end row -->

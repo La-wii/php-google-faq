@@ -19,6 +19,10 @@ h3{
     padding-top: 30px;
 }
 
+.icons{
+    font-size: 25px;
+}
+
 nav ul li,
 footer ul li{
     list-style: none;
