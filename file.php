@@ -47,17 +47,21 @@ $stampa_faq = count($faq);
 <body>
 
     <header>
+        <!-- start nav -->
         <nav>
             <div class="container-fluid">
+                <!-- start row -->
                 <div class="row d-flex">
                     <div class="col-12 d-inline-flex">
+
                         <img src="img/logo-google.png" alt="logo google" class="logo">
 
                         <h3>Privacy e Termini</h3>
-                    </div>
-                    
+                    </div>                    
                 </div>
+                <!-- end row -->
 
+                <!-- start row -->
                 <div class="row">
                     <div class="col-12">
                         <ul>
@@ -78,19 +82,19 @@ $stampa_faq = count($faq);
                             </li>
                         </ul>
                     </div>
-
                 </div>
-
+                <!-- end row -->
             </div>
         </nav>
+        <!-- end nav -->
     </header>
 
     <main>
         <div class="container-xl">
+            <!-- start row -->
             <div class="row mt-5 p-5">
                 <?php for ($i = 0; $i < $stampa_faq; $i++){?>
                     <div class="partite">
-
                         <h4>
                             <?php echo $faq[$i]['domanda'];?> 
                         </h4>
@@ -101,11 +105,13 @@ $stampa_faq = count($faq);
                     </div>
                 <?php } ?>
             </div>
+            <!-- end row -->
         </div>
     </main>
 
     <footer>
         <div class="container-fluid">
+            <!-- start row -->
             <div class="row">
                 <div class="col-10">
                     <ul>
@@ -127,8 +133,7 @@ $stampa_faq = count($faq);
                     </select>
                 </div>
             </div>
-
-
+            <!-- start row -->        
         </div>
     </footer>
 </body>
