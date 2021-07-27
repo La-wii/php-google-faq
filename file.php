@@ -57,7 +57,7 @@ $stampa_faq = count($faq);
                 </div>
 
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-12">
                         <ul>
                             <li>
                                 <a href="#">Introduzione</a>
@@ -100,5 +100,32 @@ $stampa_faq = count($faq);
             </div>
         </div>
     </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <ul>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Tutto su Google</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Termini</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <select name="selection" id="selection">
+                        <option value="italiano">Italiano</option>
+                        <option value="inglese">Inglese</option>
+                        <option value="cinese">Cinese</option>
+                        <option value="tedesco">Tedesco</option>
+                        <option value="russo">Russo</option>
+                    </select>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
 </body>
 </html>
