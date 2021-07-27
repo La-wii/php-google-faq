@@ -84,7 +84,7 @@ $stampa_faq = count($faq);
 
     <main>
         <div class="container-xl">
-            <div class="row">
+            <div class="row mt-5 p-5">
                 <?php for ($i = 0; $i < $stampa_faq; $i++){?>
                     <div class="partite">
 
