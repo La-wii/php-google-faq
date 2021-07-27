@@ -1,3 +1,40 @@
+<?php
+
+$faq = [
+    [
+        'domanda' => "Come state implementando la recente decisione della Corte di giustizia UE (CGUE) relativa al diritto all'oblio?",
+        'risposta' => 'ok',
+
+    ],
+    [
+        'domanda' => "Come state implementando la recente decisione della Corte di giustizia UE (CGUE) relativa al diritto all'oblio?",
+        'risposta' => 'ok',
+
+    ],
+    [
+        'domanda' => "Come state implementando la recente decisione della Corte di giustizia UE (CGUE) relativa al diritto all'oblio?",
+        'risposta' => 'ok',
+
+    ],
+    [
+        'domanda' => "Come state implementando la recente decisione della Corte di giustizia UE (CGUE) relativa al diritto all'oblio?",
+        'risposta' => 'ok',
+
+    ],
+    [
+        'domanda' => "Come state implementando la recente decisione della Corte di giustizia UE (CGUE) relativa al diritto all'oblio?",
+        'risposta' => 'ok',
+
+    ],
+    
+];
+
+$stampa_faq = count($faq);
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +88,22 @@
     </header>
 
     <main>
+        <div class="container-xl">
+            <div class="row">
+                <?php for ($i = 0; $i < $stampa_faq; $i++){?>
+                    <div class="partite">
 
+                        <h4>
+                            <?php echo $faq[$i]['domanda'];?> 
+                        </h4>
+
+                        <p>
+                            <?php echo $faq[$i]['risposta'];?> 
+                        </p>
+                    </div>
+                <?php } ?>
+            </div>
+        </div>
     </main>
 </body>
 </html>
