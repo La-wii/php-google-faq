@@ -92,7 +92,7 @@ $stampa_faq = count($faq);
                             <?php echo $faq[$i]['domanda'];?> 
                         </h4>
 
-                        <p>
+                        <p class="pb-5">
                             <?php echo $faq[$i]['risposta'];?> 
                         </p>
                     </div>
